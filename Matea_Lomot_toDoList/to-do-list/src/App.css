@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  background-color: rgb(61, 28, 61);
+}
+h1 {
+  font-size: 50px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(61, 28, 61);
+  text-shadow: 0px 0px 10px pink;
+}
+h3 {
+  font-size: 30px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: pink;
+  text-shadow: 7px 7px 3px rgb(29, 4, 29);
+}
+
+#tekst {
+  width: 20%;
+  margin: 10px;
+  padding: 1em;
+  border-radius: 20px;
+  background-image: radial-gradient(white, rgb(134, 10, 95));
+  font-size: 20px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 0px 0px 5px black;
+  box-shadow: 5px 5px 5px rgb(29, 4, 29);
+}
+
+#dugme {
+  margin: 10px;
+  padding: 1em;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 0px 0px 3px rgb(174, 59, 197);
+  background-color: pink;
+  box-shadow: 5px 5px 5px rgb(29, 4, 29);
+}
+.listItems {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+li {
+  list-style-image: url(components/img/taco.png);
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px white;
+}
+button {
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 0px 0px 3px rgb(174, 59, 197);
+  background-color: pink;
+  box-shadow: 5px 5px 5px rgb(29, 4, 29);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
